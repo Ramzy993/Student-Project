@@ -1,0 +1,102 @@
+{% extends "Base.html"%}
+{% block content %}
+
+<div class="jumbotron">
+  <h1>Welcome to Delete {{del_type}} Form.</h1>
+  <p>Please, fill out this form to delete {{del_type}} from the database.</p>
+
+  {% if del_type == 'Student' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif del_type == 'Course' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.courses.label }}<br>
+      {% for course in form.courses %}
+        <tr>
+        <td>{{ course }}  </td>
+        <td>{{ course.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif del_type == 'Email' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.mail.label }} {{ form.mail() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif del_type == 'Address' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.building.label }} {{ form.building() }}<br>
+      {{ form.street.label }} {{ form.street() }}<br>
+      {{ form.city.label }} {{ form.city() }}<br>
+      {{ form.zip_code.label }} {{ form.zip_code() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% else %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.courses.label }}<br>
+      {% for course in form.courses %}
+        <tr>
+        <td>{{ course }}  </td>
+        <td>{{ course.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+
+      {{ form.status.label }} {{ form.status }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+  {% endif %}
+</div>
+
+
+
+{% endblock %}

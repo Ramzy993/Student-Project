@@ -1,0 +1,91 @@
+{% extends "Base.html"%}
+{% block content %}
+
+<div class="jumbotron">
+  <h1>Welcome to Add {{add_type}} Form.</h1>
+  <p>Please, fill out this form to add {{add_type}} to the database.</p>
+
+  {% if add_type == 'Student' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.fname.label }} {{ form.fname() }}<br>
+      {{ form.lname.label }} {{ form.lname() }}<br><br>
+      {{ form.major.label }} {{ form.major() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif add_type == 'Course' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.name.label }} {{ form.name() }}<br>
+      {{ form.dept.label }} {{ form.dept() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif add_type == 'Email' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.mail.label }} {{ form.mail() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% elif add_type == 'Address' %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.building.label }} {{ form.building() }}<br>
+      {{ form.street.label }} {{ form.street() }}<br>
+      {{ form.city.label }} {{ form.city() }}<br>
+      {{ form.zip_code.label }} {{ form.zip_code() }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+
+  {% else %}
+  <form method="POST">
+      {{ form.hidden_tag() }}
+      {{ form.students.label }}<br>
+      {% for student in form.students %}
+        <tr>
+        <td>{{ student }}  </td>
+        <td>{{ student.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+      {{ form.courses.label }}<br>
+      {% for course in form.courses %}
+        <tr>
+        <td>{{ course }}  </td>
+        <td>{{ course.label }}</td>
+        </tr>
+      {% endfor %}
+      <br><br>
+
+      {{ form.status.label }} {{ form.status }}<br><br>
+      {{ form.submit() }}
+      <br>
+  </form>
+  {% endif %}
+</div>
+
+
+
+{% endblock %}

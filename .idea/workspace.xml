@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b01449a3-6a22-4663-9e5e-10717e1a4f23" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Student Project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UyOfRA69xB9Yk5rw2kjgZUXAwn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Students" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Student Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Students.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Students" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b01449a3-6a22-4663-9e5e-10717e1a4f23" name="Default Changelist" comment="" />
+      <created>1576325470377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576325470377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576520776297">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="410" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1576520776297" />
+    <state width="1339" height="170" key="GridCell.Tab.0.bottom" timestamp="1576577891663">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576577891663" />
+    <state width="1339" height="170" key="GridCell.Tab.0.center" timestamp="1576577891663">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1576577891663" />
+    <state width="1339" height="170" key="GridCell.Tab.0.left" timestamp="1576577891663">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1576577891663" />
+    <state width="1339" height="170" key="GridCell.Tab.0.right" timestamp="1576577891663">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1576577891663" />
+    <state x="75" y="0" key="SettingsEditor" timestamp="1577192195134">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="75" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577192195134" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1577444208256">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577444208256" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1576487573451" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1576330097852">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1576330097852" />
+  </component>
+</project>
